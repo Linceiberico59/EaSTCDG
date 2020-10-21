@@ -10,5 +10,10 @@ contract Inbox {
     function setMessage(string newMessage) public {
         message = newMessage;
     }
-
+    function doMathic(int a, int b) {
+        a + b;
+        b - a;
+        a * b;
+        a == 0;
+    }
 }
